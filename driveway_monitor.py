@@ -22,7 +22,7 @@ class user_app_callback_class(app_callback_class):
         super().__init__()
         self.confidence_threshold = 0.4
         # self.vehicle_classes = ["car", "bus", "truck"]
-        self.vehicle_classes = ["person"]
+        self.vehicle_classes = ["car", "truck"]
         self.vehicles = {}
         self.next_vehicle_id = 0
         self.vehicle_history = defaultdict(list)
