@@ -195,8 +195,6 @@ In `app_callback` you can also:
 
 ---
 
----
-
 ## Acknowledgments
 
 * Built on top of Hailo’s `hailo_apps.hailo_app_python` GStreamer app scaffolding.
